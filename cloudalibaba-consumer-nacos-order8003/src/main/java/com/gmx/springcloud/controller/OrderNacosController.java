@@ -39,20 +39,6 @@ public class OrderNacosController {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @GetMapping("/python/get")
     public String testDjangoGet() {
         ResponseEntity<String> exchange = restTemplate.exchange(url + "/get", HttpMethod.GET, null, String.class);
